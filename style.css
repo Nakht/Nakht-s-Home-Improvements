@@ -21,5 +21,112 @@ body {
     background-color: #b30000;
 }
 .section-1 {
+    background: url(..images/Nakht-Home-Improvements-Logo-transparent.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom;
+}
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.col-div3 {width: 25%; float: left;}
+.col-div3 {width: 50%; float: left;}
+.clearfix {
+    clear: both;
+}
+.logo {
+    color: #bb4307;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.logo span {
+    color: #35cb4e;
+}
+.nav li {
+    list-style: none;
+    float: left;
+    padding: 20px;
+}
+.nav li a {
+    text-decoration: none;
+    color: rgb(209, 239, 12);
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.get-btn {
+    padding: 10px 30px;
+    font-size: 17px;
+    background: #c23843;
+    color: rgb(27, 10, 142);
+    border: none;
+    border-radius: 5px;
+    float: right;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.menu-icon {
+    display: none;
+}
+.banner-heading {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 50%;
+    text-align: center;
+}
+h1 {
+    font-size: 60px;
+    color: aqua;
+    font-weight: bold;
+    margin: 0px;
+}
+.p1 {
+    text-align: center;
+    color: rgb(199, 12, 251);
+    font-size: 18px;
+}
+.learn {
+    font-size: 17px;
+    padding: 10px 30px;
+    background: transparent;
+    color: goldenrod;
+}
+.section-2 {
+    text-align: center;
     background: url(images/Nakht-Home-Improvements-Logo-transparent.png);
+    height: 80vh;
+    background-size: cover;
+    padding-top: 15%;
+    margin-top: -72px;
+    background-position: top;
+}
+.h2 {
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: -20px;
+}
+.p2 {
+    color: #dcdada;
+    font-size: 13px;
+    letter-spacing: 0.8px;
+    width: 666px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.hr {
+    height: 3px;
+    background: #c23843;
+    border: none;
+    width: 100px;
+    margin-top: -5px;
+    margin-bottom: 25px;
+}
+.boz {
+    background: #2f2e33;
+    height: 200px;
+    width: 240px;
+    padding: 10px;
 }
