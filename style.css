@@ -184,7 +184,7 @@ h2 {
     letter-spacing: 0.8px;
     line-height: 30px;
 }
-.pro-ul {
+.pro-ul li {
     list-style: none;
     float: left;
     color: white;
