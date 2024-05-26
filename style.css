@@ -180,7 +180,7 @@ h2 {
     padding-top: 150px;
 }
 .p4 {
-    columns: #d4d0d0;
+    color: #d4d0d0;
     letter-spacing: 0.8px;
     line-height: 30px;
 }
@@ -201,7 +201,7 @@ h2 {
     position: absolute;
     top: 18px;
     text-align: left;
-    left: 80px;
+    left: 85px;
     font-weight: 600;
     letter-spacing: 1.8px;
 }
@@ -212,4 +212,43 @@ h2 {
     position: absolute;
     top: 30px;
     left: -35px;
+}
+.sec-5 {
+    position: relative;
+}
+.right {
+    width: 50%;
+    float: left;
+    height: 400px;
+    background: #cb3541;
+}
+.content {
+    padding: 50px;
+    color: white;
+}
+.c-p1 {
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.c-p2 {
+    line-height: 25px;
+    letter-spacing: 0.8px;
+}
+.right::after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: #cb3541;
+    right: 47%;
+    top: 165px;
+    transform: rotate(45deg);
+}
+.left {
+    width: 50%;
+    float: left;
+    height: 400px;
+    background: url(images/Judys-Ceiling-Lights-and-tiles/IMG_20221218_225106580.jpg);
+    background-size: cover;
 }
