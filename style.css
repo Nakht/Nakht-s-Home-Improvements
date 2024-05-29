@@ -22,7 +22,7 @@ body {
 }
 .section-1 {
     background: url(images/Garages/Garage-Conversion/Garage\ After\ 2.jpg);
-    height: 120vh;
+    height: 100vh;
     background-size: cover;
     background-position: bottom;
 }
@@ -249,18 +249,25 @@ h2 {
     width: 50%;
     float: left;
     height: 400px;
-    background: url(images/Courtneys-Bathroom/20230810_181746.jpg);
+    background: url(images/Courtneys-Bathroom/20230810_181746-resized.jpg);
     background-size: cover;
 }
 footer {
-    padding-top: 50px;
-}.logo2 span {
+    padding-top: 40px;
+}
+.logo2 {
+    color: #bb4307;
+    font-size: 20px;
+}
+.logo2 span2 {
     color: #35cb4e;
+    font-size: 20px;
 }
 
 h4 {
     color: #cb3541;
 }
+
 .foot-p {
     color: #ccc;
     font-size: 14px;
@@ -292,7 +299,7 @@ h4 {
     font-size: 13px;
     color: #ccc;
 }
-.fot-icon {
+.foot-icon {
     margin-bottom: -6px;
 }
 .foot-bottom {
