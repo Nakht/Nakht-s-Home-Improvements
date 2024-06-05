@@ -14,7 +14,7 @@ body {
     border-radius: 10px;
 }
 ::-webkite-scrollbar-thumb {
-    background: #c23844;
+    background: #f80f07;
     border-radius: 10px;
 }
 ::-webkite-scrollbar-thumb:hover {
@@ -28,7 +28,7 @@ body {
 }
 .container {
     width: 100%;
-    max-width: 1400px;
+    max-width: 1250px;
     margin: 0 auto;
 }
 .col-div-3 {width: 25%; float: left;}
@@ -60,7 +60,7 @@ body {
 }
 .nav li a {
     text-decoration: none;
-    color: rgb(198, 226, 17);
+    color: #f80f07;
     font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
@@ -130,7 +130,7 @@ h1 {
 }
 .hr {
     height: 3px;
-    background: #c23843;
+    background: #f80f07;
     border: none;
     width: 100px;
     margin-top: -5px;
@@ -138,7 +138,6 @@ h1 {
 }
 .box {
     background: #443f52;
-    ;
     height: 200px;
     width: 240px;
     padding: 10px;
@@ -155,7 +154,7 @@ h1 {
 }
 .fa {
     font-size: 50px !important;
-    color: #8d0d17;
+    color: #f80f07;
     padding-top: 25px;
 }
 .section-3 {
@@ -179,7 +178,7 @@ h1 {
     height: 220px;
 }
 h2 {
-    color: rgb(153, 5, 5);
+    color: #f80f07;
     font-weight: 400;
 }
 .section-4 {
@@ -206,7 +205,7 @@ h2 {
 .no {
     font-size: 60px;
     font-weight: bold;
-    color: #c23843;
+    color: #f80f07;
 }
 .head {
     position: absolute;
@@ -219,7 +218,7 @@ h2 {
 .square {
     width: 15px;
     height: 15px;
-    background: #c23843;
+    background: #443f52;
     position: absolute;
     top: 30px;
     left: -35px;
@@ -227,11 +226,11 @@ h2 {
 .sec-5 {
     position: relative;
 }
-.right {
+.left {
     width: 50%;
     float: left;
     height: 400px;
-    background: #cb3541;
+    background: #443f52;
 }
 .content {
     padding: 50px;
@@ -246,17 +245,17 @@ h2 {
     line-height: 25px;
     letter-spacing: 0.8px;
 }
-.right::after {
+.left::after {
     content: '';
     position: absolute;
     width: 100px;
     height: 100px;
-    background: #cb3541;
+    background: #443f52;
     right: 47%;
     top: 165px;
     transform: rotate(45deg);
 }
-.left {
+.right {
     width: 50%;
     float: left;
     height: 400px;
@@ -276,7 +275,7 @@ footer {
 }
 
 h4 {
-    color: #cb3541;
+    color: #f80f07;
 }
 
 .foot-p {
