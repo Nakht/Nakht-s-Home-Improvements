@@ -6,45 +6,55 @@ body {
     font-family: 'Montserrat', sans-serif;
     overflow-x:hidden;
 }
+
 ::-webkite-scrollbar {
     width: 10px;
 }
+
 ::-webkite-scrollbar-track {
     box-shadow: inset 0 0 5px grey;
     border-radius: 10px;
 }
+
 ::-webkite-scrollbar-thumb {
     background: #f80f07;
     border-radius: 10px;
 }
+
 ::-webkite-scrollbar-thumb:hover {
     background-color: #f80f07;
 }
+
 .section-1 {
     background-image: linear-gradient(45deg, rgba(20, 95, 129, 0.26), rgba(0, 0, 0, 0.938)), url(images/Garages/Garage-Conversion/Garage\ After\ 2.jpg);
     height: 130vh;
     background-size: cover;
     background-position: bottom;
 }
+
 .container {
     width: 100%;
     max-width: 1250px;
     margin: 0 auto;
 }
+
 .col-div-3 {width: 25%; float: left;}
 .col-div-6 {width: 50%; float: left;}
 .clearfix {
     clear: both;
 }
+
 .logo {
     color: rgb(114, 130, 10);
     padding-top: 30px;
     font-weight: bold;
     text-indent: 80px;
 }
+
 .logo span {
     color: #0b701c;
 }
+
 .nav {
     width: 100%;
     display: flex;
@@ -52,12 +62,14 @@ body {
     justify-content: space-between;
     padding-top: 25px;
 }
+
 .nav li {
     list-style: none;
     float: left;
     padding-top: 25px;
     padding: 15px;
 }
+
 .nav li a {
     text-decoration: none;
     color: #f80f07;
@@ -65,6 +77,7 @@ body {
     font-weight: 700;
     text-transform: uppercase;
 }
+
 .get-btn {
     padding: 10px 20px;
     font-size: 17px;
@@ -77,9 +90,11 @@ body {
     margin-top: 45px;
     cursor: pointer;
 }
+
 .menu-icon {
     display: none;
 }
+
 .banner-heading {
     position: absolute;
     transform: translate(-50%, -50%);
@@ -87,25 +102,30 @@ body {
     left: 50%;
     text-align: center;
 }
+
 h1 {
     font-size: 60px;
     color: #352f46;
     font-weight: bold;
     margin: 0px;
 }
+
 .p1 {
     text-align: center;
     color: rgb(198, 226, 17);
     font-size: 20px;
     font-weight: 600;
 }
-.learn {
+
+.learn-more-button {
+    border-color: rgb(198, 226, 17);
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     background: transparent;
     color: rgb(198, 226, 17);
 }
+
 .section-2 {
     text-align: center;
     background: url();
@@ -115,12 +135,14 @@ h1 {
     margin-top: -72px;
     background-position: top;
 }
+
 .h2 {
     color: rgb(114, 130, 10);
     font-size: 22px;
     font-weight: 300;
     margin-top: -20px;
 }
+
 .p2 {
     color: rgb(198, 226, 17);
     font-size: 17px;
@@ -129,6 +151,7 @@ h1 {
     margin: 0 auto;
     margin-bottom: 20px;
 }
+
 .hr {
     height: 3px;
     background: #f80f07;
@@ -137,35 +160,42 @@ h1 {
     margin-top: -5px;
     margin-bottom: 25px;
 }
+
 .box {
     background: #443f52;
     height: 200px;
     width: 240px;
     padding: 10px;
 }
+
 .h3 {
     color: rgb(114, 130, 10);
     font-size: 18px;
     font-weight: 600;
 }
+
 .p3 {
     color: rgb(122, 174, 81);
     font-size: 13px;
     letter-spacing: 0.6px;
 }
+
 .fa {
     font-size: 50px !important;
     color: black;
     padding-top: 25px;
 }
+
 .section-3 {
     text-align: center;
  
 }
+
 .col-div-4 {
     width: 33.3%;
     float: left;
 }
+
 .box-1 {
     background: #443f52;
     padding: 40px 0 10px 0;
@@ -174,14 +204,17 @@ h1 {
     margin-left: 20px;
     margin-top: 50px;
 }
+
 .service-img {
     width: 360px;
     height: 250px;
 }
+
 h2 {
     color: #d6510f;
     font-weight: 400;
 }
+
 .section-4 {
     text-align: center;
     background: url(images/Judys-Ceiling-Lights-and-tiles/IMG_20221218_225106580.jpg);
@@ -190,24 +223,28 @@ h2 {
     margin-top: 80px;    
     padding-top: 150px;
 }
+
 .p4 {
-    color: #d4d0d0;
+    color: rgb(198, 226, 17);
     letter-spacing: 0.8px;
     line-height: 30px;
 }
+
 .pro-ul li {
     list-style: none;
     float: left;
-    color: white;
+    color: rgb(198, 226, 17);
     position: relative;
     width: 264px;
     text-align: left;
 }
+
 .no {
     font-size: 60px;
     font-weight: bold;
     color: black;
 }
+
 .head {
     position: absolute;
     top: 18px;
@@ -216,60 +253,92 @@ h2 {
     font-weight: 600;
     letter-spacing: 1.8px;
 }
-.square {
+
+.square1 {
     width: 15px;
     height: 15px;
     background: #443f52;
     position: absolute;
     top: 30px;
     left: -35px;
+    margin-left: 60px;
 }
+
+.square2 {
+    width: 15px;
+    height: 15px;
+    background: #443f52;
+    position: absolute;
+    top: 30px;
+    left: -35px;
+    margin-left: 80px;
+}
+
+.square3 {
+    width: 15px;
+    height: 15px;
+    background: #443f52;
+    position: absolute;
+    top: 30px;
+    left: -35px;
+    margin-left: 50px;
+}
+
 .sec-5 {
     position: relative;
 }
+
 .left {
     width: 50%;
     float: left;
-    height: 400px;
+    height: 600px;
     background: #443f52;
 }
+
 .content {
     padding: 50px;
-    color: white;
+    color: rgb(198, 226, 17);
 }
+
 .c-p1 {
     font-size: 22px;
     font-weight: 600;
     text-transform: uppercase;
 }
+
 .c-p2 {
     line-height: 25px;
     letter-spacing: 0.8px;
 }
+
 .left::after {
     content: '';
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     background: #443f52;
     right: 47%;
     top: 165px;
     transform: rotate(45deg);
 }
+
 .right {
     width: 50%;
     float: left;
-    height: 400px;
+    height: 600px;
     background: url(images/Courtneys-Bathroom/20230810_181746-resized.jpg);
     background-size: cover;
 }
+
 footer {
     padding-top: 40px;
 }
+
 .logo2 {
     color: #d6510f;
     font-size: 20px;
 }
+
 .logo2 span2 {
     color: #35cb4e;
     font-size: 20px;
@@ -280,45 +349,53 @@ h4 {
 }
 
 .foot-p {
-    color: #ccc;
+    color: rgb(198, 226, 17);
     font-size: 14px;
     letter-spacing: 1px;
     width: 200px;
     line-height: 22px;
 }
+
 .foot-ul {
     margin-left: -40px;
 }
+
 .foot-ul li {
     list-style: none;
 }
+
 .foot-ul li a {
-    color: #ccc;
+    color: rgb(198, 226, 17);
     text-decoration: none;
     line-height: 28px;
     font-size: 14px;
 }
+
 .foot-ul p {
     display: inline-block;
     margin-left: 10px;
-    color: #fff;
+    color: rgb(198, 226, 17);
     font-size: 14px;
     font-weight: bold;
 }
+
 .foot-ul p span {
     font-weight: 300;
     font-size: 13px;
     color: #d6510f;
 }
+
 .foot-icon {
     margin-bottom: -6px;
 }
+
 .foot-bottom {
     width: 100%;
     padding: 5px;
     height: 40px;
     background: #1c1b20;
 }
+
 .bot-p {
     text-align: center;
     color: #d6510f;
