@@ -66,11 +66,12 @@ body {
     text-transform: uppercase;
 }
 .get-btn {
-    padding: 10px 30px;
+    padding: 10px 20px;
     font-size: 17px;
     background: #c2384400;
-    color: rgb(27, 10, 142);
-    border: none;
+    color: #f80f07;;
+    border-style: solid;
+    border-color: #f80f07;
     border-radius: 5px;
     float: right;
     margin-top: 45px;
